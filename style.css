@@ -6,23 +6,23 @@ nav{
 .logo-nav{
     width: 150px;
     height: 80px;
-    justify-content: center;
-    align-items: center;
+   
     background-position: center;
-    margin-left: 40%;
+    
 }
 .link-nav{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    margin-left: 550px;
-    margin-right: 750px;
+    justify-content: center;
+
+   
 }
 ul > li {
     list-style: none;
     display: flex;
     justify-content: space-around;
     color: black;
+    margin: 0px 10px;
 }
 .text{
     color: black;
@@ -30,7 +30,8 @@ ul > li {
 }
 .montagne{
     width: 100%;
-    margin-top: 250px;
+    height: 50vh;
+    margin-top: 370px;
     position: absolute;
 }
 .text-lorem{
@@ -40,12 +41,14 @@ ul > li {
 }
 header{
     
-    background-image: url(./switzerland-862870_1920.jpg );
+    background-image: url(./mountains.png),url(./switzerland-862870_1920.jpg);
+    
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: relative;
     background-size: cover;
     display: flex;
+    background-position: bottom;
     
     
     
@@ -56,11 +59,21 @@ h1{
     background-position: center;
     text-align: center;
     color: red;
-    margin-top: 500PX;
+    margin-top: 300PX;
     font-size: 900%;
 }
 p{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
+    
+    width: 40%;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: center;
+    margin-left: 500px;
+    margin-bottom: 900px;
+}
+.row {
+    border-bottom: 1px solid red;
+    height: 100px;
 }

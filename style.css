@@ -1,5 +1,23 @@
+h1{
+    font-family:   "Nova Square", system-ui; 
+
+}
+p{
+    font-family:  "Nova Square", system-ui;
+}
+body{
+    background-color:#ececec ;
+}
+
+
 nav{
     background-color: #ececec;
+    width: 100%;
+}
+.lorem{
+    
+    text-align: center;
+    font-size: 70px;
 }
 
 
@@ -41,10 +59,8 @@ ul > li {
 }
 header{
     
-    background-image: url(./mountains.png),url(./switzerland-862870_1920.jpg);
-    
+    background-image: linear-gradient( #ececec 20% , rgba( 255, 255, 255, 0 )) ,url(./mountains.png),url(./switzerland-862870_1920.jpg);
     width: 100%;
-    height: 100vh;
     position: relative;
     background-size: cover;
     display: flex;
@@ -60,20 +76,88 @@ h1{
     text-align: center;
     color: red;
     margin-top: 300PX;
-    font-size: 900%;
+    
+    
+}
+.text-1{
+     
+   display: flex;
+    text-align: center;
+    justify-content: start;
+    background-position: center;
+    margin-left: 30%;
+    margin-bottom: 100px;
+  
+}
+.botton{
+    display: flex;
+    
+}
+.prova-colonne {
+    border-bottom: 1px solid red ;
+   
+    
+    
+    
+}
+.box{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+
+}
+
+
+h2{
+    display: flex;
+    margin-left: 100px;
+    color: red;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    background-color:  #ececec;
+}
+.section{
+    background-color:#ececec ;
+}
+.colonna-testo{
+    height: 600px;
+    border-left: 3px solid red;
+    margin-left: 30px;
+}
+.box-1{width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+    position: relative;
+    margin-left: -5px;
+    margin-bottom: 20px;
+
+}
+.righe{
+    background-color: white;
+}
+h4 {
+    display: flex;
+    text-align: left;
 }
 p{
-    
-    width: 40%;
-    
     display: flex;
-    text-align: center;
-    justify-content: center;
-    background: center;
-    margin-left: 500px;
-    margin-bottom: 900px;
+    text-align: left;
 }
-.row {
-    border-bottom: 1px solid red;
-    height: 100px;
+.img-3{
+    display: flex;
+    background-size: cover;
+    margin-top: 200px;
+    width: 100%;
+}
+.img-4{
+    background-color: white;
 }

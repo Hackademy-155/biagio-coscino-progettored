@@ -19,6 +19,8 @@ nav{
     text-align: center;
     font-size: 70px;
 }
+.margintop{
+    height: 100px;}
 
 
 .logo-nav{
@@ -100,6 +102,9 @@ h1{
     
     
 }
+.p1{
+    width: 50%;
+}
 .box{
     width: 10px;
     height: 10px;
@@ -114,6 +119,7 @@ h1{
 }
 
 
+
 h2{
     display: flex;
     margin-left: 100px;
@@ -121,14 +127,14 @@ h2{
 }
 .img{
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color:  #ececec;
 }
 .section{
     background-color:#ececec ;
 }
 .colonna-testo{
-    height: 600px;
+    height: 900px;
     border-left: 3px solid red;
     margin-left: 30px;
 }
@@ -155,9 +161,116 @@ p{
 .img-3{
     display: flex;
     background-size: cover;
-    margin-top: 200px;
+    margin-top: 500px;
     width: 100%;
+    
 }
 .img-4{
     background-color: white;
+}
+.box2{
+    width: 100px;
+    height:100px;
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px 0px;
+    justify-content: space-between;
+    
+
+}
+
+.cerchio{
+    border-radius: 50%;
+}
+.cerchio1{
+    background-image: url(./fog.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30%;
+}
+.cerchio2{
+    background-image: url(./fog.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30%;
+}
+.cerchio3{
+    background-image: url(./fog.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30%;
+}
+
+.cerchio4{
+    background-image: url(./fog.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30%;
+}
+
+.box-3{
+    width: 100%;
+}
+h3{
+    color: red;
+}
+.icone{
+    margin: 20px 0px;
+}
+.box4{
+    width: 200px;
+    height:200px;
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    
+
+    
+
+}
+.footer{
+    display: flex;
+   
+    
+    width: 100%;
+   
+    margin-top: 400px;
+    background-repeat: no-repeat;
+    justify-content: end;
+}
+    .footer-text{
+    background-color: rgb(136, 10, 10);
+    width: 100%;
+    height:50vh;
+    
+}
+.text3{
+    display: flex;
+    color: black;
+    justify-content: start;
+   font-size:40px;
+   margin-left: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and ( max-width:700px)   {
+    font-size: 4rem;
+    
 }
